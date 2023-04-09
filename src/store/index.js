@@ -12,7 +12,7 @@ const counterReducer = (state = initReducer, action) => {
     };
   }
 
-  if (action.tpye === "DECREASE") {
+  if (action.type === "DECREASE") {
     return {
       counter: state.counter - 1,
     };
